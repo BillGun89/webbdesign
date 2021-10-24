@@ -1,0 +1,42 @@
+
+.route{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    background-color: bisque;
+}
+
+.portrait{
+    float: left;
+    margin-left: 60px;
+    width: 40%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+.aboutText{
+    float: right;
+    margin-right: 100px;
+    margin-top: 35px;
+    width: 40%;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.rubrik{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+@media screen and (max-width:500px){
+    .route{
+        display: inline-block;
+    }
+   .portrait{
+       width: 80%;
+   }
+   .aboutText{
+       display: block;
+       width: 70%;
+   }
+}
+
