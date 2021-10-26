@@ -45,7 +45,8 @@ width: 20%;
    display: block;
    font-size: 20px;
    margin-left: 30px;
-   font-family: 'Coming Soon', cursive;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
 }
 
 .logo {
@@ -172,6 +173,7 @@ width: 20%;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+   
   }
   
   nav li{
@@ -188,18 +190,17 @@ width: 20%;
     position: relative; 
     z-index: 2;
     text-decoration: none;
-    color: #444;
+    color: rgb(0, 0, 0);
     box-sizing: border-box;  
     -moz-box-sizing: border-box;  
     -webkit-box-sizing: border-box; 
   }
     
   nav li a:hover{ border-bottom: 0px; color: #fff;}
-  nav li:first-child a{ border-left: 10px solid #5dbeff; }
-  nav li:nth-child(2) a{ border-left: 10px solid #f06cf0; }
-  nav li:nth-child(3) a{ border-left: 10px solid #8333ec; }
-  nav li:nth-child(4) a{ border-left: 10px solid #f6d798; }
-  nav li:nth-child(5) a{ border-left: 10px solid #f6971a; }
+  nav li:first-child a{ border-left: 10px solid #f06cf0; }
+  nav li:nth-child(2) a{ border-left: 10px solid #8333ec; }
+  nav li:nth-child(3) a{ border-left: 10px solid #f6d798; }
+  nav li:nth-child(4) a{ border-left: 10px solid #f6971a; }
   nav li:last-child a{ border-left: 10px solid #080808; }
   
   nav li a:after { 
@@ -215,15 +216,14 @@ width: 20%;
   }
   
   nav li a:hover:after{ width: 100%; }
-  nav li:first-child a:after{ background: #5dbeff; }
-  nav li:nth-child(2) a:after{ background: #f06cf0; }
-  nav li:nth-child(3) a:after{ background: #8333ec; }
-  nav li:nth-child(4) a::after{ background:  #f6d798; }
-  nav li:nth-child(5) a::after{ background:  #f6971a; }
+  nav li:first-child a:after{ background: #f06cf0; }
+  nav li:nth-child(2) a:after{ background: #8333ec; }
+  nav li:nth-child(3) a::after{ background:  #f6d798; }
+  nav li:nth-child(4) a::after{ background:  #f6971a; }
   nav li:last-child a:after{ background: #352c88; }
   
   
-  
+/*  
   @font-face {
     font-family: 'Lato';
     font-style: normal;
@@ -248,6 +248,7 @@ width: 20%;
     font-weight: 700;
     src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
   }
+  */
   
   @media screen and (max-width:500px){
     #test a
@@ -271,6 +272,4 @@ width: 20%;
       text-align: left;
     }
   }
- 
-
  
