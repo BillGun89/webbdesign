@@ -1,16 +1,13 @@
 body{
- 
   height: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
 }
-
 .route{
   max-width: 1400px;
   width: 100vh;
 }
-
 .container{
   width: 100%;
   max-width: 100%;
@@ -32,13 +29,7 @@ body{
   'img-9 img-9 img-9 img-9'
   'img-9 img-9 img-9 img-9';
 }
-/*
-'img-9 img-9 img-3 img-12'
-'img-9 img-9 img-7 img-7'
-'img-1 img-10 img-7 img-7'
-'img-1 img-8 img-11 img-4'
-'img-5 img-6 img-2 img-4';
-*/
+
 .image-gallery a{
   width: 100%;
   height: 25rem;
@@ -64,7 +55,6 @@ body{
   transition: opacity .5s;
   border-radius: 25px;
 }
-
 .image-gallery a:hover i,
 .image-gallery a:hover::before{
   opacity: 60%;
@@ -124,10 +114,10 @@ body{
 
 .welcome{
   font-size: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(98, 96, 96);
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
   text-align: center;
-  margin-top: 240px;
+  margin-top: 210px;
   margin-bottom: 100px;
 }
 @media screen and (max-width: 1100px){
@@ -144,10 +134,7 @@ body{
     'img-2 img-2 img-4 img-4'
     'img-2 img-2 img-4 img-4'
     'img-9 img-9 img-9 img-9'
-    'img-9 img-9 img-9 img-9'
-
-   
-   ;
+    'img-9 img-9 img-9 img-9';
   }
   .image-gallery a{
     height: 40rem;
@@ -155,7 +142,7 @@ body{
     width: 100%;
   }
   .welcome{
-      font-size: 50px;
+      font-size: 40px;
       font-family: 'Poppins', sans-serif;
       color: rgb(0, 0, 0);
       text-align: center;
@@ -164,8 +151,6 @@ body{
       width: 100%;
   }
     
-    
-  
    @media screen and (max-width: 800px){
     .image-gallery{
       grid-template-areas: 
@@ -187,7 +172,7 @@ body{
     
     }  
     .welcome{
-      font-size: 40px;
+      font-size: 30px;
       font-family: 'Poppins', sans-serif;
       color: rgb(0, 0, 0);
       text-align: center;
@@ -224,24 +209,4 @@ body{
     margin-bottom: 50px;
   } 
 }
-
-/*
-@media screen and (max-width: 600px){
-  .image-gallery{
-      grid-template-areas: 
-  'img-9 img-9 img-9 img-9'
-  'img-9 img-9 img-9 img-9'
-  'img-1 img-1 img-10 img-10'
-  'img-1 img-1 img-10 img-10'
-  'img-7 img-7 img-8 img-8'
-  'img-11 img-11 img-12 img-12'
-  'img-5 img-5 img-6 img-6'
-  'img-2 img-2 img-4 img-4';
-  }
-  .image-gallery a {
-      height: 25rem;
-      width: 20rem;
-  }
-}
-*/
 }
