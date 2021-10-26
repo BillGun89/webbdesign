@@ -1,7 +1,4 @@
-  
-  
-  a.button5 {
-    
+ a.button5 { 
   display:inline-block;
   padding:1em 2em;
   border:0.1em solid #000000;
@@ -37,4 +34,13 @@
    text-align: center;
    font-family: 'Poppins', sans-serif;
    font-size: 40px;
+ }
+
+ @media screen and (max-width:500px) {
+   .webText{
+     font-size: small;
+   }
+   a.button5{
+     font-size: 20px;
+   }
  }
