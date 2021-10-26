@@ -104,7 +104,7 @@
   .slideDiv{
     max-width: 200px;
     margin: 20px;
-    font-size: 20px;
+    font-size: 30px;
   }
  
   .gallery-slider{
@@ -135,7 +135,7 @@
   }
   .slideDiv{
     top: 0;
-    font-size: 15px;
+    font-size: small;
   }
   .rubrik h1{
     font-size: 30px;
