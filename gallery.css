@@ -113,14 +113,21 @@
     display: flex;
     justify-content: center;
   }
+  .rubrik h1{
+    margin-top: 170px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+  }
+
   @media screen and (max-width: 500px){
   
   .slide div{
     display: inline;
   }
   .slider-ctr{
-    width: 400px;
-    height: 700px;
+    width: 370px;
+    height: 500px;
   }
   .slide img{
     width: 100%;
@@ -128,14 +135,12 @@
   }
   .slideDiv{
     top: 0;
+    font-size: small;
   }
-  }
-
   .rubrik h1{
-    margin-top: 180px;
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 130px;
+  }
   }
     
   
